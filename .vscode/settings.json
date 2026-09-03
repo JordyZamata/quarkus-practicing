@@ -1,0 +1,5 @@
+{
+    "java.compile.nullAnalysis.mode": "automatic",
+    "explorer.compactFolders": false,
+    "workbench.iconTheme": "material-icon-theme"
+}

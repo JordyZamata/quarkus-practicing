@@ -16,7 +16,6 @@ public class Expense {
     private PaymentMethod paymentMethod;
     private BigDecimal amount;
 
-
     public Expense(UUID uuid, String name, LocalDateTime creationDate,
                    PaymentMethod paymentMethod, String amount) {
         this.uuid = uuid;

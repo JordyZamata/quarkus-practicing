@@ -9,7 +9,7 @@ import java.util.HashMap;
 import java.util.Set;
 import java.util.UUID;
 
-
+@ApplicationScoped
 public class ExpenseService {
     private Set<Expense> expenses = Collections.newSetFromMap(Collections.synchronizedMap(new HashMap<>()));
 

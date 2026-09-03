@@ -8,13 +8,11 @@ import jakarta.ws.rs.core.Response;
 import java.util.Set;
 import java.util.UUID;
 
-
+@Path("/expenses")
 public class ExpenseResource {
 
-
+    @Inject
     public ExpenseService expenseService;
-
-
 
     public Set<Expense> list() {
         return expenseService.list();
