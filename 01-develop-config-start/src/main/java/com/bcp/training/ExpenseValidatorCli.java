@@ -6,6 +6,7 @@ import jakarta.inject.Inject;
 
 @QuarkusMain
 public class ExpenseValidatorCli implements QuarkusApplication {
+    
     @Inject
     ExpenseValidator validator;
 
